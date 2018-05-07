@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.austi.feedme.FAQ">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Frequently Asked Questions:\n"
+            android:textSize="25dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:text="How do I order food?\n Great Question! Simply click on the fork and knife on the main landing page and then select the vendor you wish to order from. This will bring up said vendors menu, you then simply click on the item you want then click the green check mark and presto your food is on its way!"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:text="What is the easiest way to see my orders?\n You can view all of your current orders by clicking the shopping bag just off of the main page!"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textAlignment="center"
+            android:text="How do I make a delivery?\n To make a delivery you must first click on the bicycle on the main page; This will lead you to a secondary page where you can select a delivery to run. upon clicking a delivery it will bring up a map showing your current position as well as the location of the recipiant. WARNING: upon clicking accept your app will be locked until you complete the delivery." />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
